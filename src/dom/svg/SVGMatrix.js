@@ -1,5 +1,5 @@
 import mat2d from 'gl-matrix'
-const matrix = mat2d.mat2d
+const matrix = mat2d
 
 const radians = function (d) {
   return d % 360 * Math.PI / 180

@@ -87,13 +87,13 @@
 /******/ ({
 
 /***/ "./dirname.cjs":
-/*!*******************************************!*\
-  !*** external "./src/utils\\dirname.cjs" ***!
-  \*******************************************/
+/*!******************************************!*\
+  !*** external "./src/utils/dirname.cjs" ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("./src/utils\\dirname.cjs");
+module.exports = require("./src/utils/dirname.cjs");
 
 /***/ }),
 
@@ -2445,7 +2445,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gl_matrix__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! gl-matrix */ "gl-matrix");
 /* harmony import */ var gl_matrix__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(gl_matrix__WEBPACK_IMPORTED_MODULE_0__);
 
-const matrix = gl_matrix__WEBPACK_IMPORTED_MODULE_0___default.a.mat2d
+const matrix = gl_matrix__WEBPACK_IMPORTED_MODULE_0___default.a
 
 const radians = function (d) {
   return d % 360 * Math.PI / 180
